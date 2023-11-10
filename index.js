@@ -1,8 +1,6 @@
-console.log('Hello world');
-setTimeout(()=>console.log("waiting done"),5000)
-console.log('Bye world');
 const https=require('http')
 const jsonData=require('./DataStore')
+
 const server=https.createServer((request,response)=>{
    let nodeAdvantages= [
         "Efficient asynchronous operations",
